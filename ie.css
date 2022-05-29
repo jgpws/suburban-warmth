@@ -1,0 +1,11 @@
+div#menu ul li ul {
+top: 156px;
+}
+
+div#menu ul li ul li ul {
+top: 1.2em;
+}
+
+div.post {
+width: 611px;
+}

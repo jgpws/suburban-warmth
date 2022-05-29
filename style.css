@@ -1,0 +1,356 @@
+/*
+Theme Name: Suburban Warmth
+Description: Suburban Warmth is a Sandbox skin based on Clean and Plain as a starting point. This is a very simple and fresh design created especially for real estate and home design company blogs. It features a left aligned sidebar, a warm split complementary color scheme and as of version 0.2, an option to upload a custom header image. This theme is also Adsense friendly, with instructions on how to place code found in readme.txt.
+Author: Jason Gonzalez
+Author URI: http://www.jgpws.com/portfolio
+Template: sandbox
+Tags: brown, green, two-column, simple, left-sidebar
+Version: 0.2.1
+.
+This work is released under the GNU General Public License 2:
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+/* Import Sandbox's style sheet */
+@import url('../sandbox/style.css');
+
+/* Apply a basic layout- 2 column left */
+@import url('../sandbox/examples/2c-l.css');
+
+/* General tags */
+body {
+margin: 0;
+padding: 0;
+background-color: #765427;
+color: #000000;
+font-family: "Palatino Linotype", Palatino, "Times New Roman", Times, Rekha/*Linux*/, serif;
+}
+
+.entry-content {
+font-size: 0.8em;
+overflow-y: auto;
+}
+
+blockquote {
+font-style: italic;
+}
+
+a:visited, a:link {
+color: #000099;
+text-decoration: none;
+}
+
+a:hover, a:active {
+color: #990000;
+}
+
+img, img a {
+border: none;
+}
+
+table {
+margin: 0 auto 0 auto;
+}
+
+table th, table td {
+padding: 0 0.5em 0 0.5em;
+}
+
+hr {
+border: none 0;
+border-top: 1px solid #D5C490;
+width: 50%;
+height: 1px;
+margin: 0 auto 1em auto;
+}
+
+dl dd {
+font-style: italic;
+}
+
+pre {
+width: 380px;
+padding: 10px;
+margin: 0 auto;
+font-size: 1.2em;
+overflow: auto;
+}
+
+/* Layout tags */
+#wrapper {
+width: 960px;
+background: #D5C490;
+margin: 0 auto 0 auto;
+padding: 0
+}
+
+/* Uncomment below to disable Custom Header in WP Admin panel */
+/*div#header {
+background: url(images/suburbanwarmth_header_bg.jpg) #E8DAB1;
+text-align: left;
+height: 140px;
+}*/
+
+#blog-title {
+margin: 0 0 0 0.5em;
+}
+
+div#menu a:visited, div#menu a:link {
+color: #000000;
+}
+
+div#menu a:hover, div#menu a:active {
+color: #765427;
+}
+
+#blog-title a:visited, #blog-title a:link {
+color: #990000;
+}
+
+#blog-title a:hover, #blog-title a:active {
+color: #765427;
+}
+
+#blog-description {
+font-size: 0.8em;
+font-style: italic;
+font-weight: bold;
+color: #990000;
+margin: -0.2em 0 0.2em 1em;
+}
+
+div.skip-link {
+position: absolute;
+top: 0;
+right: 0;
+font-size: 0.8em;
+font-style: italic;
+padding: 0.2em 0.5em 0.2em 0.5em;
+background-color: #E8DAB1;
+border-bottom: 1px solid #000000;
+}
+
+#access {
+margin-right: 1em;
+background: #E8DAB1;
+}
+
+div#menu {
+margin: 0 0 0 1em;
+font-weight: bold;
+}
+
+div#menu, div#menu ul li {
+font-size: 12px;
+background: #E8DAB1;
+}
+
+div#menu ul li li {
+font-weight: normal;
+}
+
+div#container {
+margin: 0 0 0 -250px;
+}
+
+div#content {
+margin: 0 0 0 250px;
+padding: 1em 2em;
+}
+
+div#footer {
+border-bottom: 1px solid #000000;
+background-color: #E8DAB1;
+}
+
+div#primary {
+margin: 2em 0 25px 25px;
+}
+
+div#secondary {
+margin: 0 0 25px 25px;
+}
+
+div.sidebar {
+font-size: 1em;
+padding-right: 0.5em;
+background: #E8DAB1;
+width: 200px;
+}
+
+div.sidebar a:link, div.sidebar a:visited {
+color: #000000;
+}
+
+div.sidebar a:hover, div.sidebar a:active {
+color: #990000;
+}
+
+div.sidebar h3 {
+font-size: 1em;
+color: #000000;
+background-color: #D5CF90;
+border-bottom: 1px solid #000000;
+width: 100%;
+padding-left: 1em;
+}
+
+div.sidebar ul ul li {
+margin-left: 1em;
+font-size: 12px;
+list-style-image: url(images/fourdots_bullet.gif);
+font-weight: bold;
+}
+
+div.sidebar ul ul ul li {
+list-style-image: url(images/fourdots_bullet.gif);
+font-weight: normal;
+}
+
+div.sidebar a:hover {
+text-decoration: underline;
+}
+
+/* Widgets */
+#calendar-3 table {
+font-size: 0.8em;
+background-color: #D5B890;
+}
+
+#calendar-3 table caption {
+color: #990000;
+font-weight: bold;
+}
+
+#calendar-3 table thead {
+color: #FFFFFF;
+background-color: #990000;
+}
+
+#calendar-3 table a {
+text-decoration: underline;
+}
+
+#calendar_wrap {
+padding-top: 1em;
+}
+
+#wp-calendar {
+padding: 0.5em;
+width: 80%;
+border: 5px ridge #990000;
+}
+
+#wp-calendar tbody {
+background-color: #E8DAB1;
+}
+
+/* Specialized tags */
+div.post {
+padding: 1em;
+background: url(images/horizontal_divider.gif) no-repeat 50% 100% #E8DAB1;
+}
+
+.entry-title {
+background: #D5B890;
+}
+
+.entry-title a:visited, .entry-title a:link {
+color: #000000;
+}
+
+.entry-title a:hover, .entry-title a:active {
+color: #990000;
+}
+
+.entry-meta, .entry-date, .navigation, .comment-meta {
+font-size: 0.8em;
+}
+
+.entry-meta {
+padding: 1em 0 2em 0;
+}
+
+.entry-date {
+font-style: italic;
+margin: -1.5em 0 1.5em 0;
+}
+
+.navigation {
+background-color: #990000;
+display: block;
+padding: 1em;
+border-bottom: 1px solid #000000;
+}
+
+.navigation a:link, .navigation a:visited {
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.navigation a:hover, .navigation a:active {
+color: #D5CF90;
+text-decoration: none;
+}
+
+.comments p {
+font-size: 12px;
+}
+
+#calendar-3 table th, #calendar-3 table td {
+padding: 0;
+}
+
+form#commentform .form-label {
+margin: 0;
+}
+
+form#commentform p#login {
+margin-top: -1em;
+}
+
+/*uses Sandbox's comment-author-[name] class function. See readme.html in your sandbox folder */
+div.comments li.comment-author-admin p {
+border-bottom: 1px solid #000000;
+background-color: #E8DAB1;
+padding: 1em;
+}
+
+form input, form textarea, select, option {
+font-family: "Palatino Linotype", Palatino, "Times New Roman", Times, Rekha, serif;
+}
+
+li#search form {
+padding-left: 1em;
+}
+
+form#commentform span.required {
+background: transparent;
+}
+
+/* adsense specific tags */
+#ad250-floatleft {
+float: left;
+padding: 0 1em 1em 0;
+}
+
+#ad250-floatright {
+float: right;
+padding: 0 0 1em 1em;
+}
+
+#ad468-center {
+width: 468px;
+margin: 0 auto; /* does not work in IE6 or IE7 */
+                /* use code below for IE6 and IE7 */
+/*text-align: center*/
+padding: 1em 0 1em 0;
+}
+
+#ad120tower, #ad125button {
+width: 125px;
+margin: 0 auto; /* does not work in IE6 or IE7 */
+                /* use code below for IE6 and IE7 */
+/*text-align: center*/
+padding: 1em 0 1em 0;
+}
